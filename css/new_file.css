@@ -1,0 +1,259 @@
+body {
+	font-size: 16px;
+	font-family: 'Times New Roman', 'Microsoft YaHei', serif;
+	word-break: break-all;
+	background: #525659;
+	display: block;
+	margin: 8px;
+}
+
+header {
+	position: fixed;
+	background: #1A73E8;
+	left: 0;
+	top: 0;
+	right: 0;
+	margin: 0;
+	height: 50px;
+	box-shadow: 0 1px 1px #1A73d7;
+	font-size: 16px;
+	color: #F1F1F1;
+	z-index: 99;
+}
+
+header .top-title {
+	line-height: 50px;
+	display: block;
+	text-align: center;
+}
+
+.resume {
+	width: 900px;
+	min-height: 2300px;
+	background: #FFF;
+	margin: 70px auto;
+	position: relative;
+}
+
+.resume #top {
+	width: 100%;
+	height: 22px;
+	background: steelblue;
+	position: relative;
+}
+
+.resume #top span {
+	position: absolute;
+	left: 100px;
+	font-weight: bold;
+	display: inline-block;
+	background: white;
+	font-size: 19px;
+}
+
+.header .header-title {
+	padding-top: 34px;
+}
+
+.header-box {
+	width: 90%;
+	margin: 45px auto 50px auto;
+	/*background: sandybrown;*/
+	display: flex;
+	position: relative;
+	font-weight: bold;
+}
+
+.header-box ul {
+	list-style: none;
+}
+
+.header-box .header-left {
+	position: absolute;
+	top: 30px;
+	right: 70px;
+	line-height: 33px;
+}
+
+.header-box .header-right {
+	position: absolute;
+	top: 30px;
+	left: 190px;
+	line-height: 33px;
+}
+
+.person-info {
+	width: 95%;
+	height: 175px;
+	/*background: salmon;*/
+	margin: 0 auto;
+    position: relative;
+    
+}
+
+.person-info .icon {
+    background: url(../img/person_info_icon.png) no-repeat;
+}
+
+.icon {
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+    position: absolute;
+     left: 22px; 
+}
+
+.subtitle {
+    position: absolute;
+    left: 62px;
+    font-size: 19px;
+    color: #1A73E8;
+    font-weight: 600;
+    top: 2px;
+}
+
+.long-line {
+    position: absolute;
+    display: block;
+    width: 89%;
+    height: 2px;
+    top: 32px;
+    left: 58px;
+    background: #1A73E8;
+}  
+
+ .detail-list  {
+	width: 93.5%;
+	/*height: 100%;*/
+	/*background: sandybrown;*/
+	display: flex;
+	justify-content: space-around;
+	position: absolute;
+    top: 44px;
+    left: 17px;
+    right: 49px;
+    /*line-height: 1.6;*/
+}
+
+
+.pro-skill{
+	width: 95%;
+	height: 175px;
+	/*background: salmon;*/
+	position: relative;
+	margin: 30px auto 30px auto;
+}
+
+.pro-skill .detail-list ul{
+	position: absolute;
+	left: 0;
+	
+}
+
+.pro-skill .icon {
+    background: url(../img/pro_skill_icon.png) no-repeat;
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+    position: absolute;
+    left: 22px;
+}
+
+.work-experience{
+	width: 95%;
+	height: 175px;
+	/*background: salmon;*/
+	position: relative;
+	margin: 150px auto 30px auto;
+}
+
+.work-experience .icon{
+	background: url(../img/work_experience_icon.png) no-repeat;
+	width: 35px;
+    height: 35px;
+    display: inline-block;
+    position: absolute;
+    left: 22px;
+}
+
+.work-experience  .detail-list ul{
+	list-style: none;
+    line-height: 30px;
+    position: absolute;
+    left: 0;
+    top: -25px;
+	
+	
+}
+
+.open-source{
+    width: 95%;
+    height: 175px;
+    /*background: salmon;*/
+    position: relative;
+    margin: 100px auto 30px auto;
+}
+
+.open-source .icon{
+	background: url(../img/work_experience_icon.png) no-repeat;
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+    position: absolute;
+    left: 22px;
+}
+
+.open-source .detail-list ul {
+    list-style: none;
+    line-height: 30px;
+    position: absolute;
+    left: 0;
+    top: -25px;
+}
+
+.open-source .detail-list ul li {
+    color: #525659;
+}
+
+#long-line01{
+	width: 100%;
+	position: absolute; 
+	top: 260px;
+	left: 1px;
+	background: black;
+}
+
+#long-line02{
+	width: 100%;
+	position: absolute; 
+	top: 620px;
+	left: 1px;
+	background: black;
+}
+
+.self-evaluation{
+	width: 95%;
+    height: 175px;
+    /*background: salmon;*/
+   position: absolute;
+   bottom: 50px;
+   left: 20px;
+}
+
+.self-evaluation .icon{
+	background: url(../img/self_evaluation_icon.png) no-repeat;
+}
+
+.detail-lists{
+	text-align: center;
+	line-height: 30px;
+}
+
+
+footer{
+	width: 100%;
+	height: 30px;
+	position: absolute;
+	bottom: 0;
+	background: steelblue;
+}
