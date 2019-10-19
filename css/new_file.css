@@ -29,7 +29,7 @@ header .top-title {
 
 .resume {
 	width: 900px;
-	min-height: 2300px;
+	min-height: 2565px;
 	background: #FFF;
 	margin: 70px auto;
 	position: relative;
@@ -164,7 +164,7 @@ header .top-title {
 	height: 175px;
 	/*background: salmon;*/
 	position: relative;
-	margin: 150px auto 30px auto;
+	margin: 190px auto 30px auto;
 }
 
 .work-experience .icon{
@@ -218,7 +218,7 @@ header .top-title {
 #long-line01{
 	width: 100%;
 	position: absolute; 
-	top: 260px;
+	top: 210px;
 	left: 1px;
 	background: black;
 }
@@ -226,7 +226,7 @@ header .top-title {
 #long-line02{
 	width: 100%;
 	position: absolute; 
-	top: 620px;
+	top: 525px;
 	left: 1px;
 	background: black;
 }
@@ -245,7 +245,7 @@ header .top-title {
 }
 
 .detail-lists{
-	text-align: center;
+	margin-left: 25px;
 	line-height: 30px;
 }
 
