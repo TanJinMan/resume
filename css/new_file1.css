@@ -14,9 +14,9 @@ header {
 	top: 0;
 	right: 0;
 	margin: 0;
-	height: 50px;
+	height: 40px;
 	box-shadow: 0 1px 1px #1A73d7;
-	font-size: 16px;
+	font-size: .18rem;
 	color: #F1F1F1;
 	z-index: 99;
 }
@@ -28,7 +28,7 @@ header .top-title {
 }
 
 .resume {
-	width: 900px;
+	width: 100%;
 	min-height: 2565px;
 	background: #FFF;
 	margin: 70px auto;
@@ -44,24 +44,25 @@ header .top-title {
 
 .resume #top span {
 	position: absolute;
-	left: 100px;
+	left: 1rem;
 	font-weight: bold;
 	display: inline-block;
 	background: white;
 	font-size: 19px;
 }
 
-.header .header-title {
-	padding-top: 34px;
-}
-
 .header-box {
-	width: 90%;
+	width: 95%;
 	margin: 45px auto 50px auto;
-	/*background: sandybrown;*/
 	display: flex;
 	position: relative;
-	font-weight: bold;
+	font-size: .25rem;
+}
+
+
+.header-box img{
+	width: 25%;
+	height: 30%;
 }
 
 .header-box ul {
@@ -70,23 +71,24 @@ header .top-title {
 
 .header-box .header-left {
 	position: absolute;
-	top: 30px;
-	right: 70px;
-	line-height: 33px;
+	top: -.4rem;
+	left:1.5rem ;
+	
 }
 
 .header-box .header-right {
 	position: absolute;
-	top: 30px;
-	left: 190px;
-	line-height: 33px;
+	top: 1.5rem;
+	left: 1.5rem;
+	
 }
+
+/*个人信息*/
 
 .person-info {
 	width: 95%;
 	height: 175px;
-	/*background: salmon;*/
-	margin: 0 auto;
+	margin: 2rem auto;
     position: relative;
     
 }
@@ -100,13 +102,13 @@ header .top-title {
     height: 35px;
     display: inline-block;
     position: absolute;
-     left: 22px; 
+    
 }
 
 .subtitle {
     position: absolute;
-    left: 62px;
-    font-size: 19px;
+    left: 40px;
+    font-size: .33rem;
     color: #1A73E8;
     font-weight: 600;
     top: 2px;
@@ -115,39 +117,39 @@ header .top-title {
 .long-line {
     position: absolute;
     display: block;
-    width: 89%;
-    height: 2px;
+    width: 93%;
+    height: 3px;
     top: 32px;
-    left: 58px;
+    left: 20px;
     background: #1A73E8;
-}  
+} 
 
- .detail-list  {
-	width: 93.5%;
-	/*height: 100%;*/
-	/*background: sandybrown;*/
+.detail-list  {
+	width: 100%;
 	display: flex;
 	justify-content: space-around;
 	position: absolute;
+	margin: 0 auto;
+	font-size: .13rem;
     top: 44px;
-    left: 17px;
-    right: 49px;
-    /*line-height: 1.6;*/
 }
 
+.person-info .info-left{
+	width: 135px;
 
+}
+
+.person-info .info-right{
+	width: 159px;
+	
+}
+
+/*技能*/
 .pro-skill{
 	width: 95%;
-	height: 175px;
-	/*background: salmon;*/
+	height: 435px;
 	position: relative;
-	margin: 30px auto 30px auto;
-}
-
-.pro-skill .detail-list ul{
-	position: absolute;
-	left: 0;
-	
+	margin: -70px auto 30px auto;
 }
 
 .pro-skill .icon {
@@ -156,15 +158,23 @@ header .top-title {
     height: 35px;
     display: inline-block;
     position: absolute;
-    left: 22px;
 }
 
+.pro-skill .detail-list ul{
+	font-size: .25rem;
+	font-weight: bold;
+	width: 92%;
+	margin:  0 auto;
+	position: absolute;
+	left: -28px;
+}
+
+/*工作经历*/
 .work-experience{
 	width: 95%;
-	height: 175px;
-	/*background: salmon;*/
+	height: 240px;
 	position: relative;
-	margin: 190px auto 30px auto;
+	margin: 55px auto 30px auto;
 }
 
 .work-experience .icon{
@@ -173,21 +183,34 @@ header .top-title {
     height: 35px;
     display: inline-block;
     position: absolute;
-    left: 22px;
 }
 
 .work-experience  .detail-list ul{
+	font-weight: bold;
 	list-style: none;
     line-height: 30px;
     position: absolute;
-    left: 0;
+    left: -34px;
     top: -25px;
 }
 
+.work-experience  .detail-list ul li:nth-child(1){
+	font-weight: 600 !important;
+	font-size: .25rem;
+
+}
+
+.work-experience  .detail-list ul li:nth-child(2){
+	font-size: 13px;
+	width: 99%;
+	margin: 0 auto;
+
+}
+
+/*项目经验*/
 .open-source{
     width: 95%;
-    height: 175px;
-    /*background: salmon;*/
+    height: 240px;
     position: relative;
     margin: 100px auto 30px auto;
 }
@@ -198,25 +221,20 @@ header .top-title {
     height: 35px;
     display: inline-block;
     position: absolute;
-    left: 22px;
 }
 
 .open-source .detail-list ul {
     list-style: none;
     line-height: 30px;
     position: absolute;
-    left: 0;
+    left: -24px;
     top: -25px;
-}
-
-.open-source .detail-list ul li {
-    color: #525659;
 }
 
 #long-line01{
 	width: 100%;
 	position: absolute; 
-	top: 235px;
+	top: 215px;
 	left: 1px;
 	background: #1A73E8;
 }
@@ -224,10 +242,49 @@ header .top-title {
 #long-line02{
 	width: 100%;
 	position: absolute; 
-	top: 525px;
+	top: 480px;
 	left: 1px;
 	background: #1A73E8;
 }
+
+/*#dis{
+	position: absolute;
+	top: 900px !important;
+}*/
+
+.open-source  .detail-list ul li:nth-child(1){
+	font-weight: 600 !important;
+	font-size: .25rem;
+	padding-bottom: 1rem;
+
+}
+
+.open-source .detail-list ul li:nth-child(2){
+	position: absolute;
+	top: 55px;
+	left: 20px;
+	/*font-size: 13px;*/
+	width: 90%;
+	margin: 0 auto;
+
+}
+
+.xm1{
+	position: absolute !important;
+	top: -75px !important;
+}
+
+.xm2{
+	position: absolute !important;
+	top: 470px !important;
+}
+
+.xm3{
+	position: absolute !important;
+	top: 700px !important;
+}
+
+/*自我评价*/
 
 .self-evaluation{
 	width: 95%;
@@ -235,7 +292,7 @@ header .top-title {
     /*background: salmon;*/
    position: absolute;
    bottom: 50px;
-   left: 20px;
+   /*left: 20px;*/
 }
 
 .self-evaluation .icon{
@@ -243,8 +300,8 @@ header .top-title {
 }
 
 .detail-lists{
-	margin-left: 25px;
-	line-height: 30px;
+	margin-left: 7px;
+	/*line-height: 30px;*/
 }
 
 
@@ -255,3 +312,4 @@ footer{
 	bottom: 0;
 	background: steelblue;
 }
+
