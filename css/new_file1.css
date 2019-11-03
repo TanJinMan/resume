@@ -29,7 +29,7 @@ header .top-title {
 
 .resume {
 	width: 100%;
-	min-height: 2665px;
+	min-height: 2565px;
 	background: #FFF;
 	margin: 70px auto;
 	position: relative;
@@ -172,7 +172,7 @@ header .top-title {
 /*工作经历*/
 .work-experience{
 	width: 95%;
-	height: 7.2rem;
+	height: 8rem;
 	position: relative;
 	margin: .5rem auto 1rem auto;
 }
