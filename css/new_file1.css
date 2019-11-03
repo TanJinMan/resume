@@ -197,6 +197,7 @@ header .top-title {
 .work-experience  .detail-list ul li:nth-child(1){
 	font-weight: 600 !important;
 	font-size: .25rem;
+	margin-left: -10px;
 
 }
 
@@ -255,7 +256,7 @@ header .top-title {
 .open-source  .detail-list ul li:nth-child(1){
 	font-weight: 600 !important;
 	font-size: .25rem;
-	padding-bottom: 1rem;
+	/*padding-bottom: 1rem;*/
 
 }
 
