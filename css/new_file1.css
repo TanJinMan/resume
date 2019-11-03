@@ -172,9 +172,9 @@ header .top-title {
 /*工作经历*/
 .work-experience{
 	width: 95%;
-	height: 240px;
+	height: 6.2rem;
 	position: relative;
-	margin: 55px auto 30px auto;
+	margin: .5rem auto .3rem auto;
 }
 
 .work-experience .icon{
@@ -211,9 +211,9 @@ header .top-title {
 /*项目经验*/
 .open-source{
     width: 95%;
-    height: 240px;
+    height: 4.6rem;
     position: relative;
-    margin: 100px auto 30px auto;
+    margin: .5rem auto .3rem auto;
 }
 
 .open-source .icon{
